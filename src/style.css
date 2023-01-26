@@ -1,0 +1,105 @@
+body{
+  color: azure;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgb(58,101,180);
+  background-color: #0b0b1d;
+  background:
+  conic-gradient(at 62.5% 12.5%, #4e9e53 25%, #0000 0) calc(10px/-8) calc(10px/2),
+  conic-gradient(at 62.5% 12.5%, #4e9e53 25%, #0000 0) calc(-3*10px/8) calc(10px/4),
+  conic-gradient(at 87.5% 62.5%, #4e9e53 25%, #0000 0) calc(3*10px/8) calc(10px/4),
+  conic-gradient(at 87.5% 62.5%, #4e9e53 25%, #0000 0) calc(10px/-8) 0,
+  conic-gradient(at 25% 12.5%, #4e9e53 25%, #0000 0) 0 calc(10px/-4),
+  conic-gradient(at 25% 12.5%, #4e9e53 25%, #0000 0) calc(10px/-4) 0,
+  conic-gradient(at 87.5% 87.5%, #4e9e53 25%, #0000 0) calc(10px/8) 0
+  #6e1bdd;
+background-size: 10px 10px;
+
+}
+
+#list{
+  list-style: none;
+  padding: 0;
+}   
+
+section{
+  width: 60%;
+  border-radius: 5px;
+  padding: 4%;
+  background-color: rgb(247, 213, 196, 0.2);
+  -moz-box-shadow: 0px 0px 41px 0px  rgba(14, 8, 0, 0.94);
+  -webkit-box-shadow: 0px 0px 41px 0px  rgba(14, 8, 0, 0.94);
+  box-shadow: 0px 0px 41px 0px rgba(14, 8, 0, 0.94);
+  background-size: 10px 10px;  
+}
+
+
+.todo-form{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+} 
+input.form{
+  width: 60%;
+}
+input, .add-button{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.input-field, li {
+  height: 60px;
+  border-radius: 5px;
+  font-size: 2rem;
+  margin: 10px;
+  background-color: rgb(231, 236, 240);
+  padding-bottom: 15px; 
+}
+.input-field{
+  width: 70%;
+}
+
+
+.add-button{
+  background: #ff970f;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #161117;
+  font-size: 3rem;
+  cursor: pointer;
+}
+  
+  #list> li> label{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  li{
+    margin-bottom: 30px;
+   -moz-box-shadow: -6px -6px 10px rgb(254, 254, 254, 0.03),
+    6px 6px 10px rgba(10, 8, 10, 0.8),
+    inset -6px -6px 10px rgb(254, 254, 254, 0.03),
+    inset 6px 6px 10px rgba(10, 8, 10, 0.8);
+    box-shadow: -6px -6px 10px rgb(254, 254, 254, 0.03),
+                6px 6px 10px rgba(10, 8, 10, 0.8),
+               inset -6px -6px 10px rgb(254, 254, 254, 0.03),
+               inset 6px 6px 10px rgba(10, 8, 10, 0.8);
+   background-color: rgb(78, 3, 157);
+  color: #ff970f;
+ }
+
+
+input[type="checkbox" ] {
+  width: 40px;
+  height: 40px;
+  font-size: 3rem;
+  padding: 2%;
+}

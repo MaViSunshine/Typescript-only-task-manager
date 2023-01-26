@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    <title>TS to-do list</title>
+  
+  </head>
+  <body>
+    <section class="todo-container">
+      <div class="todo-input">
+        <form id="new-task-form" class="todo-form">
+          <input type="text" id="new-task-title" class="input-field" placeholder="Type a task">
+          <button type="submit" class="add-button">+</button>
+        </form>
+      </div>
+      <div class="todo-list">
+        <ul id="list" class="todo-list-item"></ul>
+        <div id="app"></div>
+      </div>
+    </section>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
